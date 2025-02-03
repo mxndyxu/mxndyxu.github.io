@@ -1,0 +1,53 @@
+/* #name {
+    font-style: italic;
+    color: red;
+} */
+
+body {
+    background-color: #fbefe7;
+}
+
+#home-intro {
+    display: flex;
+    margin-top: 250px; /* change this */
+    margin-left: 400px; /* and this */
+}
+
+#text {
+    font-family: introFont;
+    color: #95a03a;
+    padding-right: 100px;
+    margin: 0;
+}
+
+#name, #role, #resume {
+    padding: 5px;
+    margin: 0;
+}
+
+#name {
+    font-size: 40px;
+}
+
+#role {
+    margin-bottom: 25px;
+    color: #95a03a;;
+}
+
+#image {
+    clip-path: circle(50%);
+}
+
+.home-links {
+    padding: 10px;
+    margin-right: 10px;
+    color: #fbefe7;
+    background-color: #95a03a;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: introFont;
+    src: url(font.ttf);
+  }
